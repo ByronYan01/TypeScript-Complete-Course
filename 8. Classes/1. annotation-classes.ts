@@ -1,3 +1,4 @@
+export {};
 // class #1 (properties annotations)
 // class Person {
 //   name: string;
@@ -43,7 +44,7 @@
 // console.log(person.age);
 // person.age = 20; // ERROR ⚠️
 
-// class #4 (public modifier)
+// // class #4 (public modifier)
 // class Person {
 //   public name: string;
 //   public age: number;

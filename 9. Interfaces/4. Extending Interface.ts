@@ -1,3 +1,4 @@
+export {};
 // Interface #5 (Extending Interface)
 interface MovieDetails {
   readonly name: string;

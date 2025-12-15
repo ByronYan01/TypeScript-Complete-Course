@@ -1,3 +1,4 @@
+export {};
 // Define a union type
 type MyType = string | number;
 

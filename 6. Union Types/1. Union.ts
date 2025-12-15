@@ -1,3 +1,4 @@
+export {};
 let password: string | number = 20;
 
 type UserInfo = {

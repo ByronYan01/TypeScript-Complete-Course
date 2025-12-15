@@ -1,3 +1,4 @@
+export {};
 // Interface definition
 interface Computer {
   name: string;

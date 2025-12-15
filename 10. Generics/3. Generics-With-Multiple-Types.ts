@@ -1,3 +1,4 @@
+export {};
 // --------------------------
 // Generic function to reverse the order of two values
 function reversePair<T, U>(value1: T, value2: U): [U, T] {

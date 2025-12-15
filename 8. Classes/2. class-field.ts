@@ -1,3 +1,4 @@
+export {};
 class Player {
   first: string;
   last: string;

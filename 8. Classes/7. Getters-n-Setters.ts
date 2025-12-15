@@ -1,3 +1,4 @@
+export {};
 // --------------------------------------------------
 class MyClass {
   private _myProperty: number = 0;

@@ -1,3 +1,4 @@
+export {};
 // Define two types
 type Employee = {
   id: number;

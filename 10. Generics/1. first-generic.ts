@@ -1,3 +1,4 @@
+export {};
 // ------------- Without Generics -------------
 // function printNumber(item: number, defaultValue: number): [number, number] {
 //   return [item, defaultValue];

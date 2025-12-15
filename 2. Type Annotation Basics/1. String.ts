@@ -1,3 +1,4 @@
+export {};
 // let myVar: type = value
 
 let myName: string = "HuXn WebDev";

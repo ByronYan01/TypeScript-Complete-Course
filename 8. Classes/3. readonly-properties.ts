@@ -1,3 +1,4 @@
+export {};
 class Player {
   readonly first: string;
   readonly last: string;

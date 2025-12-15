@@ -1,3 +1,4 @@
+export {};
 // Regular Function
 function double1(x: number): number {
   return x * x;

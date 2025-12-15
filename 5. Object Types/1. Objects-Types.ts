@@ -1,3 +1,4 @@
+export {};
 // type variableName (annotations/types) = {property:value}
 
 // -------------------------

@@ -1,3 +1,4 @@
+export {};
 // Interface with method
 interface Person {
   firstName: string;

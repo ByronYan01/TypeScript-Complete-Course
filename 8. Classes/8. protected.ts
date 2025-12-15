@@ -1,3 +1,4 @@
+export {};
 class Player {
   constructor(
     public first: string,

@@ -1,3 +1,4 @@
+export {};
 // ----------------------
 let myTuple: [number, string];
 myTuple = [2, "Hello World"]; // Valid🥂

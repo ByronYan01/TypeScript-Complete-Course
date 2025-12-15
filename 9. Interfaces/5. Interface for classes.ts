@@ -1,3 +1,4 @@
+export {};
 // Interface for a class
 interface Vehicle {
   start(): void;

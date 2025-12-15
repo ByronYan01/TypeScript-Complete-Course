@@ -1,3 +1,4 @@
+export {};
 let color: any = "crimson";
 color = 20;
 color = true;

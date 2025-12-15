@@ -1,3 +1,4 @@
+export {};
 // Original interface
 interface Car {
   brand: string;

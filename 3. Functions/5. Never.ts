@@ -1,3 +1,4 @@
+export {};
 // 1.
 function throwError(msg: string): never {
   throw new Error(msg);

@@ -1,3 +1,4 @@
+export {};
 type UserInfo = {
   first: string;
   last: string;

@@ -1,3 +1,4 @@
+export {};
 // Generic class
 class Box<T> {
   private content: T;

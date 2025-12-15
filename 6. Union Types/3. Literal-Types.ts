@@ -1,3 +1,4 @@
+export {};
 // ----------------------------
 let color: "red" | "blue" | "green";
 color = "green";

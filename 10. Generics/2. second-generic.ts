@@ -1,3 +1,4 @@
+export {};
 // Function Signature:
 
 // function getRandomKeyValuePair<T>(obj: { [key: string]: T }): { key: string; value: T } { ... }
@@ -11,12 +12,15 @@
 
 // const keys = Object.keys(obj);: Gets an array of keys from the input object using Object.keys.
 // const randKey = keys[Math.floor(Math.random() * keys.length)];: Randomly selects a key from the array of keys using a random index.
-// return { key: randKey, value: obj[randKey] };: Returns an object with two properties — key (the randomly chosen key) and value (the corresponding value from the input object).
+// return { key: randKey, value: obj[randKey] };: Returns an object with two properties �?key (the randomly chosen key) and value (the corresponding value from the input object).
 // Return Type:
 
-// : { key: string; value: T }: The function returns an object with a fixed structure — a key property of type string and a value property of type T.
+// : { key: string; value: T }: The function returns an object with a fixed structure �?a key property of type string and a value property of type T.
 
 // Generic function to get a random key-value pair from an object
+// 入参是对象，对象中有多个键值对，出参是随机选中的一个键值对
+// 交叉类型 obj: { a: boolean; b: boolean } & Record<string, T>
+// 如果基于入参 obj 能推断出 T 的类型，那么调用 getRandomKeyValuePair<string>(stringObject) 就等价于 getRandomKeyValuePair(stringObject)
 function getRandomKeyValuePair<T>(obj: { [key: string]: T }): {
   key: string;
   value: T;

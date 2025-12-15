@@ -1,3 +1,4 @@
+export {};
 class Player {
   //   public readonly first: string;
   //   public readonly last: string;

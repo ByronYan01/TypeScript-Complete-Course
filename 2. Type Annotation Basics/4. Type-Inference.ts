@@ -1,3 +1,4 @@
+export {};
 // Here we're inferring the types!
 let tech = "TypeScript";
 let favNumber = 8;

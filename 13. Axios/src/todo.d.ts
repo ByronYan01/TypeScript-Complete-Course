@@ -5,3 +5,9 @@ export interface Todo {
   title: string;
   completed: boolean;
 }
+
+interface Result<T = unknown> {
+  code: string;
+  data: T;
+  message: string;
+}

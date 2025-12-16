@@ -9,10 +9,18 @@ import { Todo } from "./todo";
 // }
 
 const fetchData = async () => {
+  // 实际开发中后端返回的数据结构
+  // const responseTest = await axios.get<Todo, Result<Todo>>(
+  //   "https://jsonplaceholder.typicode.com/todos/1"
+  // );
+  // responseTest.code
+  // responseTest.data.
+  // responseTest.message
   try {
     const response: AxiosResponse<Todo> = await axios.get(
       "https://jsonplaceholder.typicode.com/todos/1"
     );
+    console.log("Todo response:", response);
     console.log("Todo:", response.data);
   } catch (error: any) {
     if (axios.isAxiosError(error)) {
